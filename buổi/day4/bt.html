@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox Practice</title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+                .menu {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: grey;
+        }
+
+        .logo {
+            font-size: 25px;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .logo:hover {
+            background-color: antiquewhite;
+            cursor: pointer;
+        }
+
+        .menu-items {
+            display: flex;
+        }
+
+        .items {
+            padding: 25px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .items:hover {
+            background-color: brown;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="bigger-container">
+
+        <header class="header">
+
+            <div class="logo">
+                MyShop
+            </div>
+    <div class="container">
+<div class="menu">
+      <div class="logo">Logo</div>
+
+      <div class="menu-items">
+        <div class="items">Trang chủ</div>
+        <div class="items">Sản phẩm</div>
+        <div class="items">Liên hệ</div>
+        <div class="items">Giỏ hàng</div>
+      </div>
+    </div>
+            <div class="cart">
+                🛒 Giỏ hàng
+            </div>
+
+        </header>
+
+
+        <main>
+
+        
+            <h1>Sản phẩm nổi bật</h1>
+
+            <section class="products">
+
+            
+                <div class="product">
+                    <div class="image">💻</div>
+                    <img src="https://surfaceviet.vn/wp-content/uploads/2024/05/Surface-Laptop-7-Black-13.8-inch.jpg" alt="💻">
+                    <h2>Laptop</h2>
+
+                    <p>$999</p>
+
+                    <button>Mua ngay</button>
+                </div>
+
+
+                <div class="product">
+                    <div class="image">⌨️</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH7F1CRi3DJEba2itY3va3qg6S-uF8g0Inic5IprAvxQ&s=10" alt="⌨️">
+                    <h2>Keyboard</h2>
+
+                    <p>$99</p>
+
+                    <button>Mua ngay</button>
+                </div>
+
+
+                <div class="product">
+                    <div class="image">🎧</div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPghcv64rAjRSeIRNhto5UIOXwJM8pflZC2xJANXydqA&s=10" alt="🎧">
+                    <h2>Headphone</h2>
+
+                    <p>$59</p>
+
+                    <button>Mua ngay</button>
+                </div>
+
+
+                <div class="product">
+                    <div class="image">🖱️</div>
+                    <img src="./OIP (1).webp" alt="🖱️" width="30px" height="20px">
+                    <h2>Mouse</h2>
+
+                    <p>$39</p>
+
+                    <button>Mua ngay</button>
+                </div>
+        
+
+            </section>
+
+        </main>
+
+        </div>
+        <footer>
+            © 2026 MyShop
+        </footer>
+</div>
+</body>
+
+</html>

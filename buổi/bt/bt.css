@@ -1,0 +1,31 @@
+    .box1{
+        display: flex;
+        background-color: antiquewhite;
+    }
+    .box1 div{
+            color : black;
+            display : flex;
+            background-color:white;
+    }
+    .box1-container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .box1-container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+    .box2{
+        display: flex;
+    }
+    .box2 div{
+        display: flex;
+        flex-direction: column;
+    }
+    .box3{
+        
+    }

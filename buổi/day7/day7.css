@@ -1,0 +1,19 @@
+.title {
+    background-color: rgb(168, 205, 165);
+    /* margin-top: 100px; */
+    /* top: 100px; */
+    position: relative;
+    top: 100px; 
+    /* Cách vị trí gốc là 100px */
+    left: 50px;
+}
+.container{
+    width: 600px;
+    height: 300px;
+    border: 5px , solid,red;
+}
+.box1{
+    width: 100px;
+    height: 200px;
+    border: 5px , solid,aqua;
+}

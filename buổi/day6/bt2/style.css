@@ -1,0 +1,36 @@
+        .menu {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: grey;
+        }
+
+        .logo {
+            font-size: 25px;
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .logo:hover {
+            background-color: antiquewhite;
+            cursor: pointer;
+        }
+
+        .menu-items {
+            display: flex;
+        }
+
+        .items {
+            padding: 25px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .items:hover {
+            background-color: rgb(74, 74, 74);
+            cursor: pointer;
+            ;
+        }

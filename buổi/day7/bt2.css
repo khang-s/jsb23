@@ -1,0 +1,21 @@
+.box1{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: azure;
+}
+.box2{
+    position: static;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: azure;
+}
+.box3{
+    position: static;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: azure;
+}

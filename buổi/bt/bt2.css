@@ -1,0 +1,28 @@
+        .menu {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color:#0d1128;
+            
+        }
+
+
+      
+
+        .menu-items {
+            color: aliceblue;
+            display: flex;
+        }
+
+        .items {
+            padding: 25px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        .items:hover {
+        color: orangered;
+        }

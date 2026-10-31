@@ -1,0 +1,17 @@
+.menu-container {
+            width: 400px;
+            height: 60px;
+            background-color: rgb(52, 52, 136);
+        }
+
+        /* Gọi ra tất cả các thẻ có class là item nằm trong class menu-container */
+        .menu-container .item {
+            color: white;
+            display: inline-block;
+            padding: 15px;
+            border-bottom: 1px white solid;
+        }
+
+        .menu-container .item:hover {
+            background-color: red;
+        }

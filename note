@@ -1,0 +1,33 @@
+display:none sẽ làm biến mất vật thể
+dùng width fit-content ,max-content cho nó căn chuẩn
+dùng display:inline
+khoảng cách giữa nội dung và đường viền  
+có padding-top
+padding-left
+padding-right
+padding-bottom
+
+thẻ có tính chất display:inline
+-span ,u,i,b
+=>những thẻ có inline viết cạnh nhau thì lên UI sẽ nằm ngang
+lưu ý:display:inline không chỉnh được width,height,margin-top,margin-bottom
+
+display:flex (flex: (X) là con của display:flex)
+dùng justify-content để căn khối A và Khối B
+flex-direction
+align-item căn cả trục phải và trái,trên và dưới
+gap là khoảng cách giữa khối A và khối B (gap row;gap colunm)
+flex-wrap sẽ sửa lỗi của flex
+
+input:nhập nội dung
+=>input thường đi với label
+->radio
+->
+->
+style:text align:center căn dòng chữ về giữa
+position > static (Giá trị mặc định)
+         >  relative -> dùng dc các thuộc tính top, left, right, bottom
+         => Thẻ có thể di chuyển 4 hướng top, left, right, bottom và không làm ảnh hưởng đến các thẻ xung quanh
+         >absolute ->ảnh hưởng đến vị trí xung quanh(như lúc bị chen hàng)
+         >fixed ->Luôn làm thẻ cố định và di chuyển theo màn hình của web
+         >sticky ->sẽ di chuyển đến 1 vị trí nhất định,nếu quá thì biến mất

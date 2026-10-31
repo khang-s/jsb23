@@ -1,0 +1,29 @@
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: darkviolet;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.box{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+    color: blue;
+}
+.box1{
+    flex: 1;
+    background-color: aqua;
+    order:2;
+}
+.box2{
+    flex: 2;
+    background-color: aquamarine;
+    order: 3;
+    align-self: self-end;
+}
+.box3{
+    flex: 3;
+    background-color: azure;
+    order: 1;
+}
